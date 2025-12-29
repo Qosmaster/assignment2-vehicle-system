@@ -4,7 +4,7 @@ public class Main {
         Driver driver1 = new Driver("Alex", "KZ12345");
         Driver driver2 = new Driver("Max", "KZ67890");
 
-        Vehicle car = new Car("Toyota", 2020, driver1, 4, "Petrol");
+        Vehicle car = new SCar("Toyota", 2020, driver1, 4, "Petrol");
         Vehicle motorcycle = new Motorcycle("Yamaha", 2019, driver1, false);
         Vehicle truck = new Truck("Volvo", 2018, driver2, 12.5, 6);
 
